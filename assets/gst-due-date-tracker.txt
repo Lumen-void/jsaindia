@@ -1,0 +1,27 @@
+Japneet S & Associates - GST Due Date Tracker
+
+This is a quick working reference for internal planning. Actual due dates can change based on notifications and your filing type.
+Always verify from GST portal / official circulars before acting.
+
+Common GST returns (high-level):
+
+1) GSTR-1 (Outward supplies)
+   - Monthly: typically by 11th of next month (varies by scheme/notifications)
+   - Quarterly (QRMP): typically by 13th of month after quarter (varies)
+
+2) GSTR-3B (Summary return)
+   - Monthly / QRMP: typically between 20th-24th of next month (varies by state/turnover/notifications)
+
+3) CMP-08 (Composition scheme)
+   - Quarterly payment statement (varies)
+
+4) GSTR-4 / GSTR-9 (Annual compliance)
+   - Annual due dates are notified periodically (varies)
+
+Suggested internal control:
+- Keep a monthly calendar with buffers.
+- Maker-checker review before filing.
+- Reconcile sales/purchases with books before submission.
+
+Need a customized compliance calendar? Contact us:
+jm@jsaindia.com | MGF Metropolis Mall, MG Road, Gurgaon

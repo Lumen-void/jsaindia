@@ -1,0 +1,31 @@
+Options -Indexes
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(?:php|html?)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+    <FilesMatch "\.(?:css|js)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_authz_core.c>
+    <FilesMatch "^(?:database\.sql|performance-calculator\.zip|\.DS_Store)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^meet-our-partners/?$ /team.php [R=301,L]
+RewriteRule ^jobs(?:/article)?/?$ /careers.php [R=301,L]
+RewriteRule ^copy-of-tax-consultancy/?$ /service.php?slug=tax-consultancy [R=301,L,QSA]
+RewriteRule ^copy-of-accounting-services/?$ /service.php?slug=accounting-services [R=301,L,QSA]
+RewriteRule (^|/)\.(?!well-known/) - [F,L,NC]
+RewriteRule ^(?:data|tmp|docs|scripts|cron|inc|performance-calculator)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:database\.sql|performance-calculator\.zip)$ - [F,L,NC]
+RewriteRule ^assets/jsa-compliance-calendar\.pdf$ - [F,L,NC]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>

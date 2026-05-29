@@ -1,0 +1,28 @@
+Japneet S & Associates - Payroll Compliance Checklist (Monthly)
+
+This checklist is a general guide. Your requirements depend on entity type, locations, wage structure, and applicable laws.
+Always verify from official portals and notifications.
+
+Monthly controls:
+1) Attendance and leave finalization (cut-off date locked)
+2) Variable pay inputs (incentives, overtime, reimbursements) validated
+3) New joiners/exits:
+   - Offer/appointment records
+   - Joining documents
+   - Exit settlement and recoveries
+4) Statutory checks:
+   - PF / EPF applicability and limits
+   - ESIC applicability and limits
+   - PT applicability (state-wise)
+   - TDS on salary computations
+5) Payroll preview shared for approval (maker-checker)
+6) Salary disbursement and bank file validation
+7) Payslips distributed and payroll register archived
+8) Filing tracker updated and evidence stored
+
+Evidence to archive monthly:
+- Payroll register, bank advice, challans, filed returns acknowledgements
+- Variance notes (headcount, gross pay, statutory totals)
+
+Need a payroll desk with SLA and compliance tracker? Contact:
+jm@jsaindia.com | MGF Metropolis Mall, MG Road, Gurgaon
